@@ -62,25 +62,6 @@ body
 }
 
 
-
-#elenco button 
-{
-    font-size: medium;
-    background-color: rgb(15, 15, 15);
-    font-family: "Titillium Web";
-    border-bottom-color: white;
-    background-color: transparent;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-}
-
-#elenco button p
-{
-    margin: 1%;
-    font-size: large;
-}
-
 .nome
 {
     color: white;
