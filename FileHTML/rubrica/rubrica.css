@@ -1,15 +1,19 @@
 body
 { 
     margin: 0px;
+    display: flex;
 }
 #contenitore 
 {
-    width: 200px; 
-    height: 100px; 
+    width: 80%; 
+    height: 90%; 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
+    background-color: grey;
+    border-radius: 1.5%;
+    display: flex;
     /*
     translate(-50%, -50%) è una funzione di trasformazione CSS 
     che sposta un elemento lungo gli assi X (orizzontale) e Y (verticale).
@@ -18,6 +22,25 @@ body
     che per l'asse Y, spostiamo l'elemento in modo che il suo centro co
     incida con il centro del contenitore padre.
     */
+}
+
+#contencont
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: auto;
+    
+}
+
+#contencont div
+{
+    border-radius: 3px;
+    background-color: blue;
+    width: 40%;
+    height: 30%;
+    margin: 3%;
 }
 
 
