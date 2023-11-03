@@ -1,0 +1,24 @@
+body
+{ 
+    margin: 0px;
+}
+
+#contenitore 
+{
+    width: 200px; 
+    height: 100px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+        /*
+        translate(-50%, -50%) è una funzione di trasformazione CSS 
+        che sposta un elemento lungo gli assi X (orizzontale) e Y (verticale).
+        -50% rappresenta la metà della larghezza e dell'altezza dell
+        'elemento. Quando applichiamo -50% come valore sia per l'asse X
+        che per l'asse Y, spostiamo l'elemento in modo che il suo centro co
+        incida con il centro del contenitore padre.
+        */
+}
+
+
