@@ -61,12 +61,7 @@ body
     flex-direction: column;
 }
 
-.iconame
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
+
 
 #elenco button 
 {
@@ -89,4 +84,10 @@ body
 .nome
 {
     color: white;
+}
+
+
+.sommario
+{
+    margin: 1.7%;
 }
