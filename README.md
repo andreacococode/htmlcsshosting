@@ -1,2 +1,2 @@
 # htmlcsshosting
-FRepository con file utilizzati nei lavori di HTML
+Repository con file utilizzati nei lavori di HTML
