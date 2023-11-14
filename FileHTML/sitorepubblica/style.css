@@ -1,9 +1,14 @@
 body
 {
     font-family: 'Eugenio Sans Text','Helvetica Neue',Helvetica,sans-serif;
+    background-image:url(ads.jpg);
 }
 
-
+#titolonotizia
+{
+    font-weight: bold;
+    
+}
 
 #intestazione
 {
@@ -15,8 +20,8 @@ body
     align-items: center;
     font-size:80%;
     position: sticky;
-    top: auto;
-    left: auto;
+    top: 0px;
+    left: 0px;
 }
 
 
@@ -69,31 +74,76 @@ body
     width: 100%;
     display: flex;
 }
-#notizia1 img
-{
-    width: 50%;
-    height: 100%;
-}
 
 #notizia1
 {
+    text-align: left;
     display: flex;
     align-items: center;
-    flex-direction: row;
 }
+#notizia2
+{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#notizia2 img
+{
+    width: 30%;
+    height: 15%;
+}
+#notizia1 img
+{
+    width: 30%;
+    height: 15%;
+}
+#titoli
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#titoli2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#titolonotizia
+{
+    font-family: Serif;
+    font-size:150%;
+    font-weight: bold;
+}
+
+#titolonotizia2
+{
+    font-family: Serif;
+    font-size:150%;
+    font-weight: bold;
+}
+
+#incidente
+{
+    font-size: 150%;
+}
+#titolosez
+{
+    width: 80%;
+    background-color: lightgray;
+    margin-right: 2%;
+    text-align: center;
+    font-weight: bold;
+}
+
 #videocont
 {
     background-color: lightgray;
     width: 20%;
 }
 
-#notizie
-{
-    background-color: lightgray;
-    width: 80%;
-    align-items: center;
-    font-family: serif;
-}
 
 #contnot
 {
@@ -130,7 +180,8 @@ body
 #contenitore
 {
     margin: 9%;
-
+    background-color: white;
+    
 }
 
 #banner
