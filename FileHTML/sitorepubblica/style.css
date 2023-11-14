@@ -3,24 +3,157 @@ body
     font-family: 'Eugenio Sans Text','Helvetica Neue',Helvetica,sans-serif;
 }
 
-#titolo
-{
-    
-}
+
 
 #intestazione
 {
     display: flex;
     background-color: white;
     color: black;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    font-size:80%;
+    position: sticky;
+    top: auto;
+    left: auto;
 }
 
-#corpo
+
+#intsin
 {
-
+    display: flex;
+    align-items: center;
+    width: 40%;
 }
 
-#titolo
+
+
+#intsin div
 {
+    display: flex;
+    align-items: center;
+    margin: 2%;
+}
+
+
+#intdes div
+{
+    display: flex;
+    align-items: center;
+    margin: 2%;
+}
+
+#intdes img
+{
+    width: 10%;
+    height: 10%;
+    
+}
+#intcen
+{
+   text-align: center;
+   width: 10%;
+}
+
+#intdes
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 40%;
+}
+
+#contint
+{    
+    width: 100%;
+    display: flex;
+}
+#notizia1 img
+{
+    width: 50%;
+    height: 100%;
+}
+
+#notizia1
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+#videocont
+{
+    background-color: lightgray;
+    width: 20%;
+}
+
+#notizie
+{
+    background-color: lightgray;
+    width: 80%;
+    align-items: center;
+    font-family: serif;
+}
+
+#contnot
+{
+    width: 100%;
+    height: max-content;
+}
+
+.elenco
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#meteo
+{
+   display: flex;
+   width: 80%;
+   justify-content: center;
+   align-items: center;
+}
+
+#titolo div img
+{
+    width: 50%;
+    height: 100%;
+}
+
+#titolo 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contenitore
+{
+    margin: 9%;
 
 }
+
+#banner
+{
+    background-color: #35414f;
+    height: 25%;
+    font-size: larger;
+    color: white;
+}
+
+
+#banner div img
+{
+    width: 25%;
+    height: 15%;
+    margin: 1%;
+}
+
+#banner div
+{
+    display: flex;
+    margin: 1%;
+
+}
+
+
